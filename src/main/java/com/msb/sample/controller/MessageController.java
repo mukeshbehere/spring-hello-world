@@ -9,11 +9,11 @@ public class MessageController {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Hello";
+        return "Hello V1";
     }
 
     @GetMapping("/message/{message}")
     public String getMessage(@PathVariable String message) {
-        return "Hello " + message;
+        return "Hello V1 " + message;
     }
 }
